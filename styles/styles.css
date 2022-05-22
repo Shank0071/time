@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: arial;
+    background-color: antiquewhite;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 25px;
+    background-color: antiquewhite;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.container:hover {
+    transform: scale(1.001);
+    box-shadow: 0px 0px 20px 20px black;
+}
+
+.items {
+    background-color: lightgreen;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.container2 {
+    display: grid;
+    text-align: center;
+}
+
+.div2 {
+    background-color: lightgreen;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.div3 {
+    background-color: rgb(241, 197, 115);
+    width: 100px;
+    margin-top: 5px;
+
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+:nth-of-type(8),
+:nth-of-type(15),
+:nth-of-type(22),
+:nth-of-type(29),
+:nth-of-type(36),
+:nth-of-type(42) {
+}
+
+:nth-of-type(30),
+:nth-of-type(31),
+:nth-of-type(32),
+:nth-of-type(33),
+:nth-of-type(34),
+:nth-of-type(35),
+:nth-of-type(36) {
+
+}
+
+.lunchbreak {
+    grid-row: 1/6;
+    grid-column: 6;
+    padding-top: 150px;
+    text-align: center;
+}
+
+:nth-of-type(9),
+:nth-of-type(16),
+:nth-of-type(23),
+:nth-of-type(30),
+:nth-of-type(37) {
+    background-color: antiquewhite;
+}
+
+.mon {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lab {
+    background-color: rgb(247, 197, 115);
+}
+
+.items:hover {
+    transform: scaleX(1.1)
+}
+
+.mon,
+:nth-of-type(9),
+:nth-of-type(16),
+:nth-of-type(23),
+:nth-of-type(30) {
+    background-color: brown;
+    color: white;
+}
+
+.mon:hover,
+:nth-of-type(9):hover,
+:nth-of-type(16):hover,
+:nth-of-type(23):hover,
+:nth-of-type(30):hover {
+    background-color: brown;
+    color: white;
+    background: -webkit-gradient(linear, left top, right top, color-stop(100%,rgb(12, 12, 12)), color-stop(30%,#6b1717));
+    box-shadow: 3px 3px 3px black;
+}
+
+.lunchbreak {
+    background-color: brown;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+}
+
+.lunchbreak:hover {
+    transform: scaleY(1.1);
+    background: -webkit-gradient(linear, left top, right top, color-stop(100%,rgb(12, 12, 12)), color-stop(30%,#6b1717));
+    box-shadow: 3px 3px 3px black;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+h1 {
+    box-shadow: 3px 3px 3px 3px black;
+    padding: 5px;
+    background-color: #6b1717;
+    color: white;
+    border-radius: 20px;
+}
