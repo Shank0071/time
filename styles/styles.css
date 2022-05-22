@@ -90,7 +90,7 @@ h1 {
 .day:hover {
     background-color: brown;
     color: white;
-    background: linear-gradient(to left top, right top, color-stop(100%,rgb(12, 12, 12)), color-stop(30%,#6b1717));
+    background: linear-gradient(to right, rgb(12, 12, 12),#6b1717, lightblue);
     box-shadow: 3px 3px 3px black;
 }
 
@@ -103,7 +103,7 @@ h1 {
 
 .lunchbreak:hover {
     transform: scaleY(1.1);
-    background: -webkit-gradient(linear, left top, right top, color-stop(100%,rgb(12, 12, 12)), color-stop(30%,#6b1717));
+    background: linear-gradient(to left, #6b1717, lightblue, black);
     box-shadow: 3px 3px 3px black;
 }
 
