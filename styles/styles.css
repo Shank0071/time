@@ -119,3 +119,19 @@ h1 {
     color: white;
     border-radius: 20px;
 }
+
+.container2 .div2 , .div3{
+    padding: 20px 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.container2 .div2:hover,
+.container2 .div3:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #6b1717, lightgreen, #6b1717)
+}
+
+.container2 .div3:hover {
+    background: linear-gradient(to right, #6b1717, rgb(247, 197, 115), #6b1717)
+}
